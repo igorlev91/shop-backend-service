@@ -13,9 +13,19 @@ type serviceHandler struct {
 }
 
 func (sh *serviceHandler) HelloWorld(ctx context.Context, request *service.HelloWorldRequest) (*service.HelloWorldResponse, error) {
+	validationErrors, err := utils.CheckValidation(request)
+	if err != nil {
+		return nil, err
+	}
+	if validationErrors != nil {
+		return &service.HelloWorldResponse{
+			Base: utils.ValidationErrorResponse(validationErrors),
+		}, nil
+	}
+
 	return &service.HelloWorldResponse{
 		Message: fmt.Sprintf("Hello %s", request.Name),
-		Base:    utils.SuccessResponse(),
+		// Base:    utils.SuccessResponse(),
 	}, nil
 }
 
