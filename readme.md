@@ -12,8 +12,8 @@ In process. Todo: add Supabase & Xendit
   - Registration, login, authentication
 - **Cart**
   - Add products to cart, update quantities, delete items
-
-
+- **Inter-Service Communication**
+  - Using **gRPC** for high performance and strict data structures
 
 ---
 
