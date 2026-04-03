@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
-	github.com/igorlev91/golang-grpc-ecommerce/pb/common"
-	github.com/igorlev91/golang-grpc-ecommerce/pkg/database"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
+	"github.com/igorlev91/golang-grpc-ecommerce/pb/common"
+	"github.com/igorlev91/golang-grpc-ecommerce/pkg/database"
 )
 
 type IOrderRepository interface {

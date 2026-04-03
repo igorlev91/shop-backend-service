@@ -3,8 +3,8 @@ package grpcmiddleware
 import (
 	"context"
 
-	jwtentity github.com/igorlev91/golang-grpc-ecommerce/internal/entity/jwt"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
+	jwtentity "github.com/igorlev91/golang-grpc-ecommerce/internal/entity/jwt"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
 	"google.golang.org/grpc"
 
 	gocache "github.com/patrickmn/go-cache"

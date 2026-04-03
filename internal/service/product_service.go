@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
-	jwtentity github.com/igorlev91/golang-grpc-ecommerce/internal/entity/jwt"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/repository"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
-	github.com/igorlev91/golang-grpc-ecommerce/pb/product"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
+	jwtentity "github.com/igorlev91/golang-grpc-ecommerce/internal/entity/jwt"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/repository"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
+	"github.com/igorlev91/golang-grpc-ecommerce/pb/product"
 )
 
 type IProductService interface {

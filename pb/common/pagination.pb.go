@@ -217,7 +217,7 @@ const file_common_pagination_proto_rawDesc = "" +
 	"\fcurrent_page\x18\x01 \x01(\x05R\vcurrentPage\x12(\n" +
 	"\x10total_page_count\x18\x02 \x01(\x05R\x0etotalPageCount\x12\"\n" +
 	"\ritem_per_page\x18\x03 \x01(\x05R\vitemPerPage\x12(\n" +
-	"\x10total_item_count\x18\x04 \x01(\x05R\x0etotalItemCountB2Z0github.com/xryar/golang-grpc-ecommerce/pb/commonb\x06proto3"
+	"\x10total_item_count\x18\x04 \x01(\x05R\x0etotalItemCountB2Z0github.com/igorlev91/golang-grpc-ecommerce/pb/commonb\x06proto3"
 
 var (
 	file_common_pagination_proto_rawDescOnce sync.Once

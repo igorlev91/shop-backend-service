@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"buf.build/go/protovalidate"
-	github.com/igorlev91/golang-grpc-ecommerce/pb/common"
+	"github.com/igorlev91/golang-grpc-ecommerce/pb/common"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -8,7 +8,7 @@ package order
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	common github.com/igorlev91/golang-grpc-ecommerce/pb/common"
+	common "github.com/igorlev91/golang-grpc-ecommerce/pb/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -1198,7 +1198,7 @@ const file_order_order_proto_rawDesc = "" +
 	"\x0eListOrderAdmin\x12\x1c.order.ListOrderAdminRequest\x1a\x1d.order.ListOrderAdminResponse\x12>\n" +
 	"\tListOrder\x12\x17.order.ListOrderRequest\x1a\x18.order.ListOrderResponse\x12D\n" +
 	"\vDetailOrder\x12\x19.order.DetailOrderRequest\x1a\x1a.order.DetailOrderResponse\x12V\n" +
-	"\x11UpdateOrderStatus\x12\x1f.order.UpdateOrderStatusRequest\x1a .order.UpdateOrderStatusResponseB1Z/github.com/xryar/golang-grpc-ecommerce/pb/orderb\x06proto3"
+	"\x11UpdateOrderStatus\x12\x1f.order.UpdateOrderStatusRequest\x1a .order.UpdateOrderStatusResponseB1Z/github.com/igorlev91/golang-grpc-ecommerce/pb/orderb\x06proto3"
 
 var (
 	file_order_order_proto_rawDescOnce sync.Once

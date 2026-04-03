@@ -8,7 +8,7 @@ package service
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	common "github.com/xryar/golang-grpc-ecommerce/pb/common"
+	common "github.com/igorlev91/golang-grpc-ecommerce/pb/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -132,7 +132,7 @@ const file_service_service_proto_rawDesc = "" +
 	"\amessage\x18\x02 \x01(\tR\amessage2Z\n" +
 	"\x11HelloWorldService\x12E\n" +
 	"\n" +
-	"HelloWorld\x12\x1a.service.HelloWorldRequest\x1a\x1b.service.HelloWorldResponseB3Z1github.com/xryar/golang-grpc-ecommerce/pb/serviceb\x06proto3"
+	"HelloWorld\x12\x1a.service.HelloWorldRequest\x1a\x1b.service.HelloWorldResponseB3Z1github.com/igorlev91/golang-grpc-ecommerce/pb/serviceb\x06proto3"
 
 var (
 	file_service_service_proto_rawDescOnce sync.Once

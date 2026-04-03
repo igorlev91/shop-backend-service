@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/golang-jwt/jwt/v5"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
 )
 
 type JwtEntityContextKey string

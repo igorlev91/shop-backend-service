@@ -11,10 +11,10 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/joho/godotenv"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/handler"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/repository"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/service"
-	github.com/igorlev91/golang-grpc-ecommerce/pkg/database"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/handler"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/repository"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/service"
+	"github.com/igorlev91/golang-grpc-ecommerce/pkg/database"
 )
 
 func handleGetFileName(c *fiber.Ctx) error {

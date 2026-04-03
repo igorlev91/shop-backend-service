@@ -8,7 +8,7 @@ package cart
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	common github.com/igorlev91/golang-grpc-ecommerce/pb/common"
+	common "github.com/igorlev91/golang-grpc-ecommerce/pb/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -515,7 +515,7 @@ const file_cart_cart_proto_rawDesc = "" +
 	"\bListCart\x12\x15.cart.ListCartRequest\x1a\x16.cart.ListCartResponse\x12?\n" +
 	"\n" +
 	"DeleteCart\x12\x17.cart.DeleteCartRequest\x1a\x18.cart.DeleteCartResponse\x12W\n" +
-	"\x12UpdateCartQuantity\x12\x1f.cart.UpdateCartQuantityRequest\x1a .cart.UpdateCartQuantityResponseB0Z.github.com/xryar/golang-grpc-ecommerce/pb/cartb\x06proto3"
+	"\x12UpdateCartQuantity\x12\x1f.cart.UpdateCartQuantityRequest\x1a .cart.UpdateCartQuantityResponseB0Z.github.com/igorlev91/golang-grpc-ecommerce/pb/cartb\x06proto3"
 
 var (
 	file_cart_cart_proto_rawDescOnce sync.Once

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
-	github.com/igorlev91/golang-grpc-ecommerce/pb/service"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
+	"github.com/igorlev91/golang-grpc-ecommerce/pb/service"
 )
 
 type serviceHandler struct {

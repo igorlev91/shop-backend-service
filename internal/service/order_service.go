@@ -11,11 +11,11 @@ import (
 	"github.com/google/uuid"
 	"github.com/xendit/xendit-go"
 	"github.com/xendit/xendit-go/invoice"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
-	jwtentity github.com/igorlev91/golang-grpc-ecommerce/internal/entity/jwt"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/repository"
-	github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
-	github.com/igorlev91/golang-grpc-ecommerce/pb/order"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
+	jwtentity "github.com/igorlev91/golang-grpc-ecommerce/internal/entity/jwt"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/repository"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/utils"
+	"github.com/igorlev91/golang-grpc-ecommerce/pb/order"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

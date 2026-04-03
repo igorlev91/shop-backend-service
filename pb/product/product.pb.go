@@ -8,7 +8,7 @@ package product
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	common github.com/igorlev91/golang-grpc-ecommerce/pb/common"
+	common "github.com/igorlev91/golang-grpc-ecommerce/pb/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -1104,7 +1104,7 @@ const file_product_product_proto_rawDesc = "" +
 	"\rDeleteProduct\x12\x1d.product.DeleteProductRequest\x1a\x1e.product.DeleteProductResponse\x12H\n" +
 	"\vListProduct\x12\x1b.product.ListProductRequest\x1a\x1c.product.ListProductResponse\x12W\n" +
 	"\x10ListProductAdmin\x12 .product.ListProductAdminRequest\x1a!.product.ListProductAdminResponse\x12X\n" +
-	"\x11HighlightProducts\x12 .product.HighlightProductRequest\x1a!.product.HighlightProductResponseB3Z1github.com/xryar/golang-grpc-ecommerce/pb/productb\x06proto3"
+	"\x11HighlightProducts\x12 .product.HighlightProductRequest\x1a!.product.HighlightProductResponseB3Z1github.com/igorlev91/golang-grpc-ecommerce/pb/productb\x06proto3"
 
 var (
 	file_product_product_proto_rawDescOnce sync.Once

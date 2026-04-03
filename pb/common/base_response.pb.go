@@ -154,7 +154,7 @@ const file_common_base_response_proto_rawDesc = "" +
 	"statusCode\x12\x18\n" +
 	"\amessage\x18\x02 \x01(\tR\amessage\x12\x19\n" +
 	"\bis_error\x18\x03 \x01(\bR\aisError\x12D\n" +
-	"\x11validation_errors\x18\x04 \x03(\v2\x17.common.ValidationErrorR\x10validationErrorsB2Z0github.com/xryar/golang-grpc-ecommerce/pb/commonb\x06proto3"
+	"\x11validation_errors\x18\x04 \x03(\v2\x17.common.ValidationErrorR\x10validationErrorsB2Z0github.com/igorlev91/golang-grpc-ecommerce/pb/commonb\x06proto3"
 
 var (
 	file_common_base_response_proto_rawDescOnce sync.Once

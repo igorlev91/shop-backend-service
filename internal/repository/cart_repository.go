@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
+	"github.com/igorlev91/golang-grpc-ecommerce/internal/entity"
 )
 
 type ICartRepository interface {
